@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <center>
+        <table border="4"  id="tbl">
+            <thead>
+                <tr>
+                    <th>name:</th>
+                    <td><input type="text" name="name" id="name" class="widt"></td>
+                </tr>
+            </thead>
+            <tbody>
+                <thead>
+                    <tr>
+                        <th>age:</th>
+                        <td><input type="text" name="age" id="age" class="widt"></td>
+                    </tr>
+                </thead>
+                <thead>
+                    <tr>
+
+                        <th>gender:</th>
+                        <td >male<input type="radio" name="radiobtn" value="male" > female <input type="radio"
+                                name="radiobtn" value="female">other<input type="radio" name="radiobtn" value="other">
+                        </td>
+
+                    </tr>
+                </thead>
+
+                <thead>
+                    <tr>
+                        <th>course:</th>
+                        <td><select id="myselect">
+                                <option value="">___--select--___</option>
+                                <option value="javascript">javascript</option>
+                                <option value="python">python</option>
+                                <option value="c++">c++</option>
+                                <option value="c">c</option>
+                            </select></td>
+                    </tr>
+                </thead>
+
+
+                <thead>
+                    <tr>
+                        <th>email:</th>
+                        <td><input type="text" name="email" id="email" class="widt"></td>
+                    </tr>
+                </thead>
+
+                <tr>
+
+                    <td colspan="2"><input type="button" name="button" value="click" id="btn" onclick="add()"></td>
+                </tr>
+
+
+
+            </tbody>
+
+        </table>
+
+        <table border="4" id="tableid">
+            <thead>
+                <tr>
+                    <th>name</th>
+                    <th>age</th>
+                    <th>email</th>
+                    <th>gender</th>
+                    <th>cource</th>
+
+                </tr>
+            </thead>
+        </table>
+
+
+    </center>
+    <script src="./script.js"></script>
+</body>
+
+</html>
